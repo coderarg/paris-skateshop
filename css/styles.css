@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+/*----------------Header----------------------*/
+.link-azul:hover {
+  color: #1048ff; }
+
+.link-rojo:hover {
+  color: #ff1f1f; }
+
+.logo {
+  height: 80%;
+  max-width: 300px; }
+
+.logo__link {
+  width: 80%; }
+
+.logo__img {
+  width: 100%; }
+
+/*---------------------------------------------------*/
+/*---------------------Footer------------------------*/
+footer {
+  background-color: #1a1a1a; }
+
+.footer__containera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  padding: 0px 250px 0px 30px; }
+
+.direccion__container {
+  display: block; }
+
+.direccion__titulo, .direccion__texto {
+  font-family: 'PT Sans', sans-serif;
+  color: white; }
+
+.redesSociales {
+  text-decoration: none; }
+
+.redesSociales__link {
+  text-decoration: none;
+  height: auto;
+  width: auto; }
+
+.fa-facebook {
+  color: #1074f6;
+  font-size: 40px;
+  margin: 20px; }
+
+.fa-instagram {
+  color: #f82596;
+  font-size: 40px;
+  margin: 20px; }
+
+.footer__containerb {
+  width: 100%;
+  height: 50px;
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer__containerb a {
+  text-decoration: none;
+  color: white; }
+
+.footer__containerb a:hover {
+  color: red; }
+
+.fa-github {
+  color: white;
+  font-size: 26px; }
+
+/*---------------------------------------------------*/
+/*---------------------Inicio------------------------*/
+.carousel__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.titulo__container {
+  width: 100%;
+  margin: 50px 0px 10px 0px;
+  padding: 40px 0px 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center; }
+
+.titulo__texto {
+  font-size: 30px;
+  font-family: 'Sanchez', serif;
+  text-align: center; }
+
+.titulo__container p {
+  font-family: 'PT Sans', sans-serif; }
+
+.categorias {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0px 20%; }
+
+.categorias__productos {
+  width: 30%;
+  max-width: 300px;
+  margin: 6px 12px; }
+
+.categorias__productos:hover {
+  transform: scale(1.02, 1.02); }
+
+.categorias__productos a {
+  width: 100%;
+  margin: 1%; }
+
+.categorias__productos img {
+  width: 100%;
+  border: 1px solid black; }
+
+.button__verproductos {
+  width: 100%;
+  margin: 30px 0px;
+  display: flex;
+  justify-content: center; }
+
+.button__link {
+  text-decoration: none;
+  color: white;
+  font-family: 'PT Sans', sans-serif bold; }
+
+.marcas {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0px 30px 20px 30px; }
+
+.marcas__img {
+  width: 10%;
+  min-width: 120px;
+  margin: 3px 6px; }
+
+.marcas__img img {
+  width: 100%;
+  border: 1px solid black; }
+
+@media screen and (max-width: 1024px) {
+  .categorias {
+    padding: 0px 10%; }
+  .categorias__productos {
+    width: 25%;
+    max-width: 200px; }
+  .marcas {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px 15%; } }
+
+/*---------------------------------------------------*/
+/*-------------Logo Whatsapp Flotante-----------------*/
+.whatsapp {
+  position: fixed;
+  margin: 0;
+  padding: 0.5% 1%;
+  bottom: 16%;
+  right: 5%;
+  width: 15%;
+  min-width: 60px;
+  max-width: 100px;
+  background-color: #4AC959;
+  border-radius: 15%;
+  box-shadow: rgba(0, 0, 0, 0.507); }
+
+@media screen and (max-width: 760px) {
+  .whatsapp {
+    max-width: 50px; } }
+
+/*---------------------------------------------------*/
+/*--------------------Productos-----------------------*/
+.containerProductos {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+
+.containerProductos div {
+  width: 22%;
+  min-width: 250px;
+  margin: 1%; }
+
+.containerProductos div:hover {
+  transform: scale(1.02, 1.02); }
+
+.containerProductos a {
+  width: 100%;
+  text-align: center; }
+
+.containerProductos img {
+  width: 100%; }
+
+.containerProductos h3 {
+  font-family: 'Architects Daughter', cursive;
+  color: black;
+  text-decoration: none; }
+
+.containerProductos button {
+  width: 100%; }
+
+/*---------------------------------------------------*/
+/*-------------------Nosotros------------------------*/
+.containerCarrusel {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.containerCarrusel img {
+  width: 100%;
+  height: auto; }
+
+.logoParisSkateshop {
+  width: 100%; }
+
+.logoParisSkateshop img {
+  width: 100%; }
+
+.presentacion {
+  width: 100%;
+  display: flex;
+  flex-flow: column; }
+
+.presentacion__tituloDescripcion {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: arial;
+  text-align: center; }
+
+.presentacion__descripcion {
+  width: 95%;
+  margin: 5%;
+  text-align: left;
+  font-family: arial; }
+
+.seguinos {
+  width: 95%;
+  margin: 5%;
+  display: grid;
+  grid-template-columns: 30% 30%;
+  grid-template-rows: 20% 80%;
+  grid-template-areas: "seguinos__titulo seguinos__titulo" "seguinos__logoInstagram seguinos__logoFacebook";
+  column-gap: 10%;
+  row-gap: 10%; }
+
+.seguinos a {
+  width: 100%; }
+
+.seguinos img {
+  width: 100%; }
+
+.mapa {
+  width: 100%; }
+
+.mapa iframe {
+  width: 100%; }
+
+/*-----------------------------------------------------*/
+/*--------------------Contacto-------------------------*/
+.formulario {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.formulario form {
+  width: 50%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: 12% 12% 12% 12% 20%;
+  column-gap: 5%;
+  row-gap: 5%;
+  grid-template-areas: "nombre comentario" "celular comentario" "email comentario" "producto comentario" "botonEnviar botonEnviar"; }
+
+.formulario__nombre {
+  grid-area: nombre;
+  border-radius: 3px; }
+
+.formulario__celular {
+  grid-area: celular;
+  border-radius: 3px; }
+
+.formulario__email {
+  grid-area: email;
+  border-radius: 3px; }
+
+.formulario__producto {
+  grid-area: producto;
+  border-radius: 3px; }
+
+.formulario__comentario {
+  grid-area: comentario;
+  border-radius: 3px;
+  height: 100%; }
+
+.formulario__botonEnviar {
+  grid-area: botonEnviar;
+  border-radius: 3px; }
+
+/*---------------------------------------------------*/
+/*-----------------------FAQ--------------------------*/
+.containerPreguntas {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center; }
+
+.tituloPreguntas {
+  width: 86%;
+  height: auto;
+  text-align: center; }
+
+.preguntas {
+  width: 96%;
+  height: auto; }
+
+/*---------------------------------------------------*/
