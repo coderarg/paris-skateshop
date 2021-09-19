@@ -5,122 +5,330 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Emprendimiento-Tienda de Skates Originales, skateboards armados, tablas, trucks, ruedas, indumentaria y accesorios para skateboards">
-    <meta name="keywords" content="tienda, skateshop, skates, skateboards, tablas, trucks, ruedas, rulemanes, indumentaria, originales, CABA">
+    <meta name="keywords" content="tienda, venta, skateshop, skate, skateboard, tabla, truck, rueda, rulemán, indumentaria, original, CABA">
     <title>Paris Skateshop | Productos</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Sanchez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header class="header">
-        <a href="../index.html" class="logo__link">
-            <img class="logo__img" src="../sources/logos/logo-paris-skateshop.png" alt="logo">
-        </a>
-        <button class="nav__toggle">
-            <i class="fas fa-bars"></i>
-        </button>
-    
-        <nav class="nav">
-            <ul class="nav__menu">
-                <li class="nav__menu--item">
-                    <a href="../index.html" class="nav__menu--link link__azul">INICIO</a>
-                </li>
-                <li class="nav__menu--item">
-                    <a href="productos.html" class="nav__menu--link link__rojo">PRODUCTOS</a>
-                </li>
-                <li class="nav__menu--item">
-                    <a href="nosotros.html" class="nav__menu--link link__azul">NOSOTROS</a>
-                </li>
-                <li class="nav__menu--item">
-                    <a href="contacto.html" class="nav__menu--link link__rojo">CONTACTO</a>
-                </li>
-                <li class="nav__menu--item">
-                    <a href="faq.html" class="nav__menu--link link__azul">PREGUNTAS FRECUENTES</a>
-                </li>
-            </ul>
-        </nav>
-    
+        <nav class="navbar navbar-light bg-dark fixed-top">
+            <div class="container-fluid">
+                <div class="logo">
+                    <a class="logo__link" href="../index.html">
+                        <img class="logo__img" src="../sources/logos/logo-paris-skateshop.png" alt="">
+                    </a>
+                </div>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Paris Skateshop</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="productos.html">Productos</a>
+                            </li>       
+                            <li class="nav-item">
+                                <a class="nav-link" href="nosotros.html">Nosotros</a>
+                            </li>   
+                            <li class="nav-item">
+                                <a class="nav-link" href="faq.html">Preguntas Frecuentes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>  
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>        
     </header>
 
     <main>
 
-        <div class="containerProductos">
-            <div>      
-                <a href="https://parisskateshop.mercadoshops.com.ar/MLA-923643824-tabla-de-skate-whiro-con-lija-envio-gratis-_JM" target="_blank">
-                    <img src="../sources/tablas/tabla-whiro-lija.png" alt="Whiro">
-                    <h3>Tabla De Skate Whiro Con Lija Envio Gratis!</h3>
-                    <button type="button" class="btn btn-dark">VER PRECIO</button>
-                </a>
-            </div>
-
-            <div>      
-                <a href="https://parisskateshop.mercadoshops.com.ar/MLA-923651164-tabla-de-skate-wizard-con-lija-envio-gratis-_JM?attributes=TUVESURB%3AOC4yNSI%3D&quantity=1" target="_blank">
-                    <img src="../sources/tablas/tabla-wizard-lija.png" alt="Whiro">
-                    <h3>Tabla De Skate Wizard Con Lija Envio Gratis!</h3>
-                    <button type="button" class="btn btn-dark">VER PRECIO</button>
-                </a>
-            </div>
-
-            <div>      
-                <a href="https://parisskateshop.mercadoshops.com.ar/MLA-923654422-tabla-de-skate-mercy-con-lija-envio-gratis-_JM?variation=86685200310#reco_item_pos=1&reco_backend=machinalis-seller-items&reco_backend_type=function&reco_client=vip-seller_items_above-shops&reco_id=19012125-6dd5-4a45-9096-a41d51a3564d" target="_blank">
-                    <img src="../sources/tablas/tabla-mercy-lija.png" alt="Whiro">
-                    <h3>Tabla De Skate Mercy Con Lija Envio Gratis!</h3>
-                    <button type="button" class="btn btn-dark">VER PRECIO</button>
-                </a>
-            </div>
-
-            <div>      
-                <a href="https://parisskateshop.mercadoshops.com.ar/MLA-903268509-tabla-skate-guatambu-lija-de-papel-_JM#reco_item_pos=1&reco_backend=machinalis-seller-items&reco_backend_type=function&reco_client=vip-seller_items_above-shops&reco_id=efd5aaa1-4608-46d3-b83d-921c0de98f98" target="_blank">
-                    <img src="../sources/tablas/tabla-guatambu-lija.png" alt="Whiro">
-                    <h3>Tabla Skate Guatambu + Lija De Papel</h3>
-                    <button type="button" class="btn btn-dark">VER PRECIO</button>
-                </a>
-            </div>
+        <div class="filtro__container">
+            <ul class="filtro__lista">
+                <div class="filtro__item">
+                    <a href="#skatesCompletos" class="filtro__link">Skates Completos</a>
+                </div>
+                <div class="filtro__item">
+                    <a href="#tablas" class="filtro__link">Tablas</a>
+                </div>
+                <div class="filtro__item">
+                    <a href="#trucks" class="filtro__link">Trucks</a>
+                </div>
+                <div class="filtro__item">
+                    <a href="#accesorios" class="filtro__link">Accesorios</a>
+                </div>
+            </ul>
         </div>
 
-        <div>
-            <!--Logo flotante de Whats App-->
-            <a href="https://api.whatsapp.com/send?phone=5491127280514" target="_blank">
-                <img src="../sources/logos/whatsapp-brands.svg" class="whatsapp" title="Ir al chat">
-            </a>
-        </div>
-      
-    </main>
+        <div class="productos__container">
 
-    <footer>
-        <div class="footer">
+            <!--PRODUCTOS SKATES ARMADOS-->
+            <div class="productos__titulo" id="skatesCompletos">
+                <h2>SKATES COMPLETOS</h2>
+            </div>
 
-            <div class="footer__tituloContacto">
-                <a href="contacto.html">
-                    <h3>Contacto</h3>
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/skate-completos/skate-completo-profesional.png" alt="">
+                <h3>SKATE COMPLETO CON RUEDAS NEGRAS</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-917693553-skate-completo-profesional-envio-gratis-_JM?attributes=Q09MT1IgUlVFREFT%3AR1JJUyBPU0NVUk8%3D&quantity=1" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">VER PRECIO</button>
                 </a>
             </div>
 
-            <div class="footer__tituloSeguinos">
-                <h3>Seguinos</h3>
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/skate-completos/skate-completo-profesional-rnaranja.png" alt="">
+                <h3>SKATE COMPLETO CON RUEDAS NARANJA</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-917693553-skate-completo-profesional-envio-gratis-_JM?attributes=Q09MT1IgUlVFREFT%3ATkFSQU5KQQ%3D%3D&quantity=1" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">VER PRECIO</button>
+                </a>
             </div>
 
-            <div class="footer__tituloPreguntas">  
-                <a href="faq.html">
-                    <h3>Preguntas Frecuentes</h3>
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/skate-completos/skate-completo-profesional-rvioleta.png" alt="">
+                <h3>SKATE COMPLETO CON RUEDAS VIOLETA</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-917693553-skate-completo-profesional-envio-gratis-_JM?attributes=Q09MT1IgUlVFREFT%3AVklPTEVUQQ%3D%3D&quantity=1" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">VER PRECIO</button>
+                </a>
+            </div>
+
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/skate-completos/skate-completo-shaman.png" alt="">
+                <h3>SKATE COMPLETO PROFESIONAL SHAMAN</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-935916648-skate-completo-profesional-shaman-envio-gratis-_JM#position=2&search_layout=stack&type=item&tracking_id=1bfd563a-7a6d-4b04-ad67-15fa06d17197" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">VER PRECIO</button>
+                </a>
+            </div>
+
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/skate-completos/skate-completo-kalima-maple-calavera.png" alt="">
+                <h3>SKATE COMPLETO KALIMA MAPLE CALAVERA</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-1101144347-skate-completo-kalima-profesional-maple-envio-gratis-_JM?attributes=RElTRcORTw%3D%3D%3AQ0FMQVZFUkE%3D&quantity=1" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">VER PRECIO</button>
+                </a>
+            </div>
+
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/skate-completos/skate-completo-kalima-maple-play.png" alt="">
+                <h3>SKATE COMPLETO KALIMA MAPLE PLAY</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-1101144347-skate-completo-kalima-profesional-maple-envio-gratis-_JM?attributes=RElTRcORTw%3D%3D%3AUExBWQ%3D%3D&quantity=1" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">VER PRECIO</button>
+                </a>
+            </div>
+
+            <!--PRODUCTOS TABLAS-->
+            <div class="productos__titulo" id="tablas">
+                <h2>TABLAS</h2>
+            </div>
+
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/tablas/tabla-guatambu.png" alt="">
+                <h3>TABLA GUATAMBU CON LIJA DIFERENTES MEDIDAS</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-903268509-tabla-skate-guatambu-lija-de-papel-_JM?searchVariation=72373353423#searchVariation=72373353423&position=1&search_layout=stack&type=item&tracking_id=457100ae-c3e6-48a9-8fc6-fc9d02fff96d" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">VER PRECIO</button>
+                </a>
+            </div>
+
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/tablas/tabla-wizard.png" alt="">
+                <h3>TABLAS WIZARD CON LIJA DIFERENTES DISEÑOS Y MEDIDAS</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-923651164-tabla-de-skate-wizard-con-lija-envio-gratis-_JM?attributes=TUVESURB%3AOC41Ig%3D%3D&quantity=1" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">VER PRECIO</button>
+                </a>
+            </div>
+
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/tablas/tabla-mercy.png" alt="">
+                <h3>TABLAS MERCY CON LIJA DIFERENTES DISEÑOS Y MEDIDAS</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-923654422-tabla-de-skate-mercy-con-lija-envio-gratis-_JM?searchVariation=88923049799#searchVariation=88923049799&position=3&search_layout=stack&type=item&tracking_id=79bd6028-e792-48c9-a387-34a54a54a56a" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">VER PRECIO</button>
+                </a>
+            </div>
+
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/tablas/tabla-guatambu-lisa.png" alt="">
+                <h3>TABLA GUATAMBU LISA DIFERENTES MEDIDAS</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-903071659-tabla-skate-guatambu-lisa-8-825-_JM?searchVariation=72270714898#searchVariation=72270714898&position=4&search_layout=stack&type=item&tracking_id=4559cc78-a573-450f-8376-00695e99f8b7" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">VER PRECIO</button>
+                </a>
+            </div>
+
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/tablas/tabla-shaman.png" alt="">
+                <h3>TABLAS SHAMAN CON LIJA DIFERENTES DISEÑOS Y MEDIDAS</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-923650312-tabla-de-skate-shaman-con-lija-envio-gratis-_JM?searchVariation=86683981159#searchVariation=86683981159&position=5&search_layout=stack&type=item&tracking_id=20a620ff-47d3-455a-b738-a2683411d365" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">VER PRECIO</button>
                 </a>
             </div>
             
-            <div class="footer__logosRRSS">
-                <!-- Logos de Redes Sociales dentro del Footer-->
-                <a href="https://www.instagram.com/parisskateshop/?hl=es" target="_blank" title="Instagram">
-                    <img src="../sources/logos/instagram-brands.svg" alt="Instagram" class="footer__logosRRSS--logoInstagram">
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/tablas/tabla-whiro-lija.png" alt="">
+                <h3>TABLAS WHIRO CON LIJO DIFERENTES DISEÑOS Y MEDIDAS</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-923643824-tabla-de-skate-whiro-con-lija-envio-gratis-_JM?searchVariation=91215991454#searchVariation=91215991454&position=6&search_layout=stack&type=item&tracking_id=20a620ff-47d3-455a-b738-a2683411d365" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">VER PRECIO</button>
                 </a>
-                <a href="https://www.facebook.com/parisskateshop/" target="_blank" title="Facebook">
-                    <img src="../sources/logos/facebook-square-brands.svg" alt="Facebook" class="footer__logosRRSS--logoFacebook">
+            </div>
+            
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/tablas/tabla-kalima-hard-maple.png" alt="">
+                <h3>TABLA KALIMA HARD MAPLE DIFERENTES DISEÑOS</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-1101159407-tabla-de-skate-kalima-hard-maple-canadiense-envio-gratis-_JM?searchVariation=173573922123#searchVariation=173573922123&position=10&search_layout=stack&type=item&tracking_id=c54de2a3-2927-487a-af90-394534a1c230" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">VER PRECIO</button>
+                </a>
+            </div>
+
+            <!--PRODUCTOS TRUCKS-->
+            <div class="productos__titulo" id="trucks">
+                <h2>TRUCKS</h2>
+            </div>
+
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/trucks/trucks-combo-ruedas.png" alt="">
+                <h3>COMBO TRUCKS CON RUEDAS, RULEMANES Y TORNILLOS</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-1100214674-combo-trucksruedasrulemanestornillos-para-armar-tu-tabla-_JM?searchVariation=173548206663#searchVariation=173548206663&position=5&search_layout=stack&type=item&tracking_id=ca1c9825-27e0-4f36-a5b9-c26ca4524e47" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">VER PRECIO</button>
+                </a>
+            </div>
+
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/trucks/trucks-dater-149mm.png" alt="">
+                <h3>TRUCKS DATER 149mm PROFESIONAL</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-916645322-trucks-dater-skate-149mm-_JM#position=1&search_layout=stack&type=item&tracking_id=94677551-bcc2-4ffd-ad54-5370f07d9203" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">VER PRECIO</button>
+                </a>
+            </div>
+
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/trucks/trucks-compacto-144mm.png" alt="">
+                <h3>TRUCKS COMPACTO 144mm PROFESIONAL</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-925921533-trucks-compacto-skate-144mm-profesionales-_JM#position=2&search_layout=stack&type=item&tracking_id=6cddfe76-6bdd-40bc-a7e6-ef7e02e3a05e" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">VER PRECIO</button>
+                </a>
+            </div>
+
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/trucks/trucks-compacto-144mm-fullcolor.png" alt="">
+                <h3>TRUCKS COMPACTO 144mm FULL COLOR AZUL</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-934741052-trucks-compacto-skate-144mm-profesionales-full-color-_JM?searchVariation=94638324171#searchVariation=94638324171&position=4&search_layout=stack&type=item&tracking_id=6cddfe76-6bdd-40bc-a7e6-ef7e02e3a05e" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">VER PRECIO</button>
+                </a>
+            </div>
+
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/trucks/trucks-dater-149mm.png" alt="">
+                <h3>TRUCKS DATER 139mm PROFESIONAL</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-920627134-trucks-dater-skate-139mm-_JM#position=3&search_layout=stack&type=item&tracking_id=6cddfe76-6bdd-40bc-a7e6-ef7e02e3a05e" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">VER PRECIO</button>
+                </a>
+            </div>
+            
+            <!--PRODUCTOS ACCESORIOS-->
+            <div class="productos__titulo" id="accesorios">
+                <h2>ACCESORIOS</h2>
+            </div>
+        
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/ruedas/ruedas.jpg" alt="">
+                <h3>RUEDAS VARIOS DISEÑOS</h3>
+                <a class="productos__link" href="https://www.instagram.com/p/CTAwfypnjoQ/" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">CONSULTAR</button>
+                </a>
+            </div>
+            
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/rulemanes/rulemanes-abec.png" alt="">
+                <h3>RULEMANES ABEC7 SKATE Y LONGBOARD ROLLERS 608</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-921216525-rulemanes-skate-abec7-longboard-rollers-608-_JM#position=1&search_layout=stack&type=item&tracking_id=aae0f9ea-54c2-40ad-af87-8065713ede91" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">VER PRECIO</button>
+                </a>
+            </div>   
+
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/accesorios/bujes.png" alt="">
+                <h3>BUJES DE COLORES VARIOS</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-905593128-bujes-para-skate-varios-colores-_JM?searchVariation=76110101821#searchVariation=76110101821&position=2&search_layout=stack&type=item&tracking_id=4855ed24-91a6-4bb0-988f-934944e60f33" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">VER PRECIO</button>
+                </a>
+            </div>        
+            
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/accesorios/lija.png" alt="">
+                <h3>BUSHINGS DE COLORES VARIOS</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-884595022-lija-para-skate-autoadhesiva-23cmx85cm-doble-a-_JM#position=3&search_layout=stack&type=item&tracking_id=4855ed24-91a6-4bb0-988f-934944e60f33" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">CONSULTAR</button>
+                </a>
+            </div>   
+
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/accesorios/parkingpinstrucks.png" alt="">
+                <h3>PAR DE KINGPINS PARA TRUCKS</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-908113421-par-de-kingpins-para-truck-estriado-_JM#position=6&search_layout=stack&type=item&tracking_id=4855ed24-91a6-4bb0-988f-934944e60f33" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">CONSULTAR</button>
+                </a>
+            </div>       
+
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/accesorios/tuercas.png" alt="">
+                <h3>SET DE TUERCAS REPUESTO</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-920441836-set-de-tuercas-para-truckseje-skate-_JM#position=7&search_layout=stack&type=item&tracking_id=4855ed24-91a6-4bb0-988f-934944e60f33" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">CONSULTAR</button>
+                </a>
+            </div>       
+            
+            <div class="productos__item">      
+                <img class="productos__img" src="../sources/accesorios/tornillos.png" alt="">
+                <h3>SET DE 8 TORNILLOS ALLEN AUTOFRENANTES REPUESTO</h3>
+                <a class="productos__link" href="https://parisskateshop.mercadoshops.com.ar/MLA-908113199-tornillos-para-skate-x8u-allenautofrenante-_JM#position=1&search_layout=stack&type=item&tracking_id=4855ed24-91a6-4bb0-988f-934944e60f33" target="_blank">
+                    <button type="button" class="btn btn-dark producto__boton">CONSULTAR</button>
+                </a>
+            </div>       
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer__containera">
+            <div class="direccion__container">
+                <h3 class="direccion__titulo">Ubicación</h3>
+                <address class="direccion__texto">Av. Lisandro de la Torre 780, Liniers,<br> 
+                Ciudad Autonoma de Buenos Aires</address>
+            </div>
+
+            <div class="redesSociales link">
+                <a class="redesSociales__link" href="https://www.facebook.com/parisskateshop/" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a class="redesSociales__link" href="https://www.instagram.com/parisskateshop/?hl=es" target="_blank">
+                    <i class="fab fa-instagram"></i>
                 </a>
             </div>
         </div>
+
+        <div class="footer__containerb">
+            <p>Diseñado por Lucas García  
+                <a href="https://github.com/lucascodearg" target="_blank">
+                    / github.com/lucascodearg <i class="fab fa-github"></i>
+                </a>
+            </p>
+        </div>
     </footer>
+
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/2601300690.js" crossorigin="anonymous"></script>
 </body>
 </html>

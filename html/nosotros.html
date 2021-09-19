@@ -5,95 +5,152 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Emprendimiento-Tienda de Skates Originales, skateboards armados, tablas, trucks, ruedas, indumentaria y accesorios para skateboards">
-    <meta name="keywords" content="tienda, skateshop, skates, skateboards, tablas, trucks, ruedas, rulemanes, indumentaria, originales, CABA">
+    <meta name="keywords" content="tienda, venta, skateshop, skate, skateboard, tabla, truck, rueda, rulemán, indumentaria, original, CABA">
     <title>Paris Skateshop | Nosotros</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Sanchez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header class="header">
-        <a href="../index.html" class="logo__link">
-            <img class="logo__img" src="../sources/logos/logo-paris-skateshop.png" alt="logo">
-        </a>
-    
-        <nav class="nav">
-            <ul class="nav__menu">
-                <li class="nav__menu--item">
-                    <a href="../index.html" class="nav__menu--link link__azul">INICIO</a>
-                </li>
-                <li class="nav__menu--item">
-                    <a href="productos.html" class="nav__menu--link link__rojo">PRODUCTOS</a>
-                </li>
-                <li class="nav__menu--item">
-                    <a href="nosotros.html" class="nav__menu--link link__azul">NOSOTROS</a>
-                </li>
-                <li class="nav__menu--item">
-                    <a href="contacto.html" class="nav__menu--link link__rojo">CONTACTO</a>
-                </li>
-                <li class="nav__menu--item">
-                    <a href="faq.html" class="nav__menu--link link__azul">PREGUNTAS FRECUENTES</a>
-                </li>
-            </ul>
-        </nav>
-    
+        <nav class="navbar navbar-light bg-dark fixed-top">
+            <div class="container-fluid">
+                <div class="logo">
+                    <a class="logo__link" href="../index.html">
+                        <img class="logo__img" src="../sources/logos/logo-paris-skateshop.png" alt="">
+                    </a>
+                </div>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Paris Skateshop</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="productos.html">Productos</a>
+                            </li>       
+                            <li class="nav-item">
+                                <a class="nav-link active" href="nosotros.html">Nosotros</a>
+                            </li>   
+                            <li class="nav-item">
+                                <a class="nav-link" href="faq.html">Preguntas Frecuentes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>  
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>        
     </header>
 
     <main>
 
-        <div class="containerCarrusel">
-        <!--Carrusel de Imagenes-->
-            <img src="../sources/portadas/consulta-skates-armados.png" alt="carrusel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../sources/portadas/carrousel-img1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../sources/portadas/carrousel-img2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../sources/portadas/carrousel-img1.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
 
-        <div class="logoParisSkateshop">
-            <img src="../sources/logos/logo-paris-skateshop-blanco.jpg" alt="">
+        <div class="presentacion">
+            <div class="founder">
+                <img class="founder__img" src="../sources/comunidad/franco.png">
+                <h3 class="founder__nombre">Franco Jontín</h3>
+                <p class="founder__texto">FOUNDER</p>
+            </div>
+
+            <div class="descripcion">
+                <h2 class="descripcion__titulo">PARIS SKATESHOP</h2>
+                <p class="descripcion__parrafo">
+                    Paris Skateshop nació como un emprendimiento que busca incluir a todos aquellos que quieran aventurarse arriba de una tabla. <br>
+                    Lo importante de esto no es quien salta más alto o quien hace más trucos, sino la comunidad que se forma alrededor de las rampas, la gente que se anima y se va sumando y los amigos que se hacen en la plaza.         
+                </p>
+            </div>
+
         </div>
 
-        <div class="presentación">
-            <h2 class="presentacion__tituloDescripcion">Emprendimiento de Skate Boards</h2>
-            <p class="presentacion__descripcion">
-                Paris Skateshop nació como un emprendimiento de jovenes para todos aquellos que quieran aventurarse en el mundo de las rampas y los holies. <br>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic maxime blanditiis architecto necessitatibus, labore fugiat ad nulla, sed deserunt impedit consectetur reprehenderit, excepturi facere dolore magnam perferendis doloribus recusandae ullam?
-                <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum illo odio deleniti, nam necessitatibus laudantium, earum maiores ipsa officiis ducimus ullam libero aspernatur voluptatem optio cum inventore provident ad mollitia.
-            </p>
+        <div class="comunidad">
+
+            <div class="comunidad__titulo">
+                <h2>COMUNIDAD</h2>
+            </div>
+
+            <div class="galeria">
+                
+                <img class="galeria__img" src="../sources/comunidad/foto-comunidad-1.jpg" alt="">
+
+                <img class="galeria__img" src="../sources/comunidad/foto-comunidad-2.jpg" alt="">
+
+                <img class="galeria__img" src="../sources/comunidad/foto-comunidad-3.jpg" alt="">
+
+            </div>
         </div>
+
         
-        <div class="seguinos">
-            <h3 class="seguinos__titulo">Seguinos</h3>
-        <br>
-            <!-- Logos de Redes Sociales dentro del Footer-->
-            <a class="seguinos__logoInstragram" href="https://www.instagram.com/parisskateshop/?hl=es" target="_blank" title="Instagram">
-                <img src="../sources/logos/logo-instagram.jpg" alt="Instagram">
-            </a>
-        
-            <a class="seguinos__logoFacebook" href="https://www.facebook.com/parisskateshop/" target="_blank" title="Facebook">
-                <img src="../sources/logos/logo-facebook.jpg" alt="Facebook">
-            </a>
-        </div>
-  
-        <div class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.5102755184403!2d-58.52414578417853!3d-34.616543165684966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7d8421ea123%3A0xf05882ae3f323591!2sAv.%20Lope%20de%20Vega%202800%2C%20C1417COY%20CABA!5e0!3m2!1ses-419!2sar!4v1625428921014!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-
-        <div>
-            <!--Logo flotante de Whats App-->
-            <a href="https://api.whatsapp.com/send?phone=5491127280514" target="_blank">
-                <img src="../sources/logos/whatsapp-brands.svg" class="whatsapp" title="Ir al chat">
-            </a>
-
-        </div>
-      
     </main>
 
     <footer>
-       
+        <div class="footer__containera">
+            <div class="direccion__container">
+                <h3 class="direccion__titulo">Ubicación</h3>
+                <address class="direccion__texto">Av. Lisandro de la Torre 780, Liniers,<br> 
+                Ciudad Autonoma de Buenos Aires</address>
+            </div>
+
+            <div class="redesSociales link">
+                <a class="redesSociales__link" href="https://www.facebook.com/parisskateshop/" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a class="redesSociales__link" href="https://www.instagram.com/parisskateshop/?hl=es" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer__containerb">
+            <p>Diseñado por Lucas García  
+                <a href="https://github.com/lucascodearg" target="_blank">
+                    / github.com/lucascodearg <i class="fab fa-github"></i>
+                </a>
+            </p>
+        </div>
     </footer>
+
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/2601300690.js" crossorigin="anonymous"></script>
 </body>
 </html>
